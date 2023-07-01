@@ -9,7 +9,7 @@ export const Recipie=()=>{
     return <div style={{padding:"1rem"}}>
     <h1>{findRecipie?.recipie}</h1>
     <div style={{display:"flex"}}>
-    <img src={findRecipie?.recipieImage} alt="image" style={{height:"20rem"}}/>
+    <img src={findRecipie?.recipieImage} alt="recipie" style={{height:"20rem"}}/>
     <div>
         <h2>Cuisine:{findRecipie?.cusineType}</h2>
         <b>Ingredients:</b>{findRecipie?.ingredients.map((item,index)=><span key={index}>{item},</span>)}
