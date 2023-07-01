@@ -1,0 +1,23 @@
+.card{
+    height:50vh;
+    width:15vw;
+    cursor: pointer;
+}
+.cardHead{
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cardBody>p{
+    font-weight: bolder;
+}
+.details{
+    display: flex;
+    margin:1rem 0;
+    justify-content: space-between;
+}
+.details p{
+    margin: 0;
+    font-weight: bold;
+}

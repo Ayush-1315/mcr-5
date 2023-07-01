@@ -1,0 +1,23 @@
+.recipieContainer{
+    display: flex;
+    gap:0.5rem;
+    flex-wrap: wrap;
+    margin:1rem;
+}
+.addTile{
+    background-color: grey;
+    height: 50vh;
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.wrapper{
+    position: absolute;
+    background-color: rgba(189, 189, 189, 0.8);
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
